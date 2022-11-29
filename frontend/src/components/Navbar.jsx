@@ -6,7 +6,7 @@ const navigate=useNavigate()
   return (
     <nav className="navbar navbar-expand bg-primary ">
       <div className="container-fluid  ">
-    <a className="navbar-brand" href="#">CASE STUDY</a>
+    <h3 onClick={()=>navigate('/')} >CASE STUDY</h3>
       <form className="d-flex  justify-content-center " role="search">
         <input className="form-control m-1 w-100   " type="search" placeholder="Search a Book ..."  />
         <button class="btn btn-outline btn-success" type="submit">Search</button>
