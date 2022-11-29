@@ -1,8 +1,28 @@
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   
 }
 .home{
   background-color: grey;
+  height: 565px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  padding: 40px;
+  border: 3px solid red;
+  border-radius: 25%;
+  width: 500px;
+  background-color:rgb(223, 77, 77);
+}
+.formPage{
+  background-color:rgb(112, 112, 141);
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 565px;
 }
